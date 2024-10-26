@@ -6,6 +6,7 @@ import Counter from "./Counter";
 import Team from "./Team";
 import Users from "./Users";
 import Friends from "./Friends";
+import Posts from "./Posts";
 
 function App() {
   const handleClick = function () {
@@ -33,17 +34,17 @@ function App() {
     // </>
 
     <>
+      <Posts />
+
       <Friends />
       {/* React useEffect() */}
-      <Users />
+      {/* <Users /> */}
 
       {/* State change in react */}
-      <div>
-        <Counter />
-      </div>
+      <div>{/* <Counter /> */}</div>
 
       {/* Understand the concept of useState and react hooks  */}
-      <Team />
+      {/* <Team /> */}
     </>
   );
 }

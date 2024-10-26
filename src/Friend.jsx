@@ -4,7 +4,7 @@ export default function Friend({ friend }) {
     <div className="friends">
       <h3>Name: {name}</h3>
       <p>Email: {email}</p>
-      {console.log(friend)}
+      {/* {console.log(friend)} */}
     </div>
   );
 }
